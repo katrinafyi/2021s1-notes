@@ -3,7 +3,7 @@ What is a code, how do we develop them, and what properties do we expect? We wil
 
 The goal of **coding theory** is to digitise information so it can be transmitted electronically and recovered later. The importance is the information may be transmitted through a noisy or unreliable channel, so the code should be able to detect and (ideally) correct the errors.
 
-![[Pasted image 20210226125249.png]]
+![](Pasted%20image%2020210226125249.png)
 
 A **message text** is a vector or **word** of length $k$ containing elements from some alphabet $A$. For binary codes, $A = \mathbb Z_2 = \{0, 1\}$. The space of all possible message words is denoted $M = A^k$ (this is just the Cartesian product of $A$ and itself $k$ times).
 
@@ -92,4 +92,4 @@ The **Hamming distance** between $v, w \in \mathbb Z_2^n$ is the number of posit
 
 We take messages from some message space $M = \mathbb Z_2^k$ and add redundancy by mapping it to a codeword in a code space $C \subset \mathbb Z_2^n$. Because not all $n$-length binary words are valid codewords, this allows us to detect errors. Potentially, we can also correct errors by finding the valid codeword which is "closest" to what we received.
 
-![[Pasted image 20210226134947.png]]
+![](Pasted%20image%2020210226134947.png)

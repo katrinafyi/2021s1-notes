@@ -25,7 +25,7 @@ which means that at least some errors will be detected.
 
 #example Consider instead the probability of decoding correctly an error in a particular message bit in a 3-fold $(3k,k)$-code over a BSC with reliability $p$. That is, what is the probability of correcting an error assuming one has occurred?
 
-Recall that a 3-fold code has $\delta=3$ [[MATH3302 Lecture 2#Minimum distance of a code]] and in deciding, we decode the the bit in the repetition which occurs most often. If there are no or one errors, the decoding will be correct. that is,
+Recall that a 3-fold code has $\delta=3$ [MATH3302 Lecture 2#Minimum distance of a code](MATH3302%20Lecture%202%23Minimum%20distance%20of%20a%20code) and in deciding, we decode the the bit in the repetition which occurs most often. If there are no or one errors, the decoding will be correct. that is,
 $$
 \begin{aligned}
 P  &= \binom {3}{0}p^{3-0}(1-p)^{0} + \binom 3 1 p^{3-1}(1-p)^1 \\ 
@@ -77,7 +77,7 @@ e=e_{11}e_{12}~ e_{21}e_{22}~e_{31}e_{32}.
 $$
 The error can be corrected if the two errors occur in different positions within the same or different groups. One error must occur in the left bit and the other must occur in the right bit. There are three choices for the left bit and given a left position, there are 3 choices for the right bit error position. This means there are $3 \times 3=9$ possible error patterns which are correctable.
 
-![[Pasted image 20210302121229.png]]
+![](Pasted%20image%2020210302121229.png)
 
 If we transmit this over a BSC with reliability $p$, then the probability of at most 2 errors in codewords of length 6 is the sum of probabilities of 0, 1, and 2 errors:
 $$

@@ -84,13 +84,13 @@ returns the number of hours required to study course $c$.
 
 Consider this function which simulates studying until graduation. Note that we can't do the same thing as earlier because we don't know how much RequiredStudyTime would increase the hours by.
 
-![[Pasted image 20210309161646.png]]
+![](Pasted%20image%2020210309161646.png)
 
 #example Consider the Ackermann function. This is used to show that not every totally recursive function is primitive recursive. That is, it can't be implemented using loops with a fixed number of iterations. The question we'd like to ask is does this terminate.
 
 In fact, yes with termination metric $(m,n)$. We can see that all recursive calls either decrease $m$, or for the inner call $\operatorname{Ack}(m,n-1)$ decreases $n$.
 
-![[Pasted image 20210309162033.png]]
+![](Pasted%20image%2020210309162033.png)
 
 # Mutually recursive functions
 
@@ -101,7 +101,7 @@ $$
 40 - n \succ (40 - n, \operatorname{RequiredStudyTime}n).
 $$
 
-![[Pasted image 20210309162623.png]]
+![](Pasted%20image%2020210309162623.png)
 
 # Subcomputations
 

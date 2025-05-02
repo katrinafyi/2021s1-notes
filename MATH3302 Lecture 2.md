@@ -21,7 +21,7 @@ Of course, if $w = c+e \in C$, then IMLD fails because $c+e$ will be the closest
 #definition Given $M = \mathbb Z_2^k$, an $m$-**fold repetition code** is formed by taking each message $v \in M$ and concatenating $m$ copies of $v$ to form $c \in C$.
 
 **Example.** Consider the 3-fold code with $k=3$ and codeword $c=010010010$ with the addition of all weight 1 error patterns. We can see these errors are detected because they are not in $C$.
-![[Pasted image 20210226140856.png]]
+![](Pasted%20image%2020210226140856.png)
 
 In this case, we have $|M| = 2^3 = 8$ and $|C| = 8$. However, $|\mathbb Z_2^9| = 2^9$ which is much larger than 8.
 
@@ -39,9 +39,9 @@ $$
 Sometimes, it is useful to include this in our notation so we write a $(n,k)$-code with minimum distance $\delta$ as a $(n,k,\delta)$-code.
 
 **Example.** The minimum distance of the code $C = \{000, 111\}$ is 3 which is $\|000 + 111\| = 3$.
-![[Pasted image 20210226150839.png]]
+![](_attachments/Pasted%20image%2020210226150839.png)
 We can imagine the balls of radius 1 around the codewords. Because the balls of distance 1 around each codeword do not intersect, there is a unique closest codeword for error patterns of weight 1. This is not the case for error weights 2.
-![[Pasted image 20210226151043.png]]
+![](Pasted%20image%2020210226151043.png)
 
 #theorem If $C$ is a code with minimum distance $\delta$, then $C$ is a $(\delta-1)$-error *detecting *code.
 

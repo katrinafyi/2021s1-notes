@@ -37,6 +37,6 @@ Non-examples include the Lie bracket for matrices, and subtraction and division.
 
 A binary operation is **commutative** if for all $a, b \in S$, we have $a * b = b * a$. For example, addition and multiplication are commutative for the regular number-like fields but not for matrices. Also, composition on $\mathcal F_A$ is not commutative.
 
-![[202102231327 math2301 theorem associativity]]
+![](202102231327%20math2301%20theorem%20associativity)
 
-![[202102231344 math2301 identities]]
+![](202102231344%20math2301%20identities)
