@@ -39,7 +39,7 @@ $$
 Sometimes, it is useful to include this in our notation so we write a $(n,k)$-code with minimum distance $\delta$ as a $(n,k,\delta)$-code.
 
 **Example.** The minimum distance of the code $C = \{000, 111\}$ is 3 which is $\|000 + 111\| = 3$.
-![](_attachments/Pasted%20image%2020210226150839.png)
+![](Pasted%20image%2020210226150839.png)
 We can imagine the balls of radius 1 around the codewords. Because the balls of distance 1 around each codeword do not intersect, there is a unique closest codeword for error patterns of weight 1. This is not the case for error weights 2.
 ![](Pasted%20image%2020210226151043.png)
 

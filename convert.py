@@ -11,8 +11,15 @@ pat2 = re.compile(r'\[\[([^\]]+)\]\]')
 def sub1(x):
     url = urllib.parse.quote(x[1])
     return f'![]({url})'
-def sub2(x):
-    url = urllib.parse.quote(x[1])
+
+def sub2(x: re.Match):
+    p = x[1]
+    if not Path(p).exists():
+        p = p + '.md'
+    if not Path(p).exists():
+        return x[0]
+
+    url = urllib.parse.quote(p)
     return f'[{x[1]}]({url})'
 
 for p in pth.glob('*.md'):

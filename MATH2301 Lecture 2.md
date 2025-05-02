@@ -38,7 +38,7 @@ Note that the last property holds by commutativity but we write it because we wi
 
 #exercise Show that the rationals plus root is a field. This is very similar to showing $\mathbb C = \mathbb R + i \mathbb R$ is a field.
 
-Recall that identities are unique (we showed this in [MATH2301 Lecture 1](MATH2301%20Lecture%201)).
+Recall that identities are unique (we showed this in [MATH2301 Lecture 1](MATH2301%20Lecture%201.md)).
 
 #theorem For $(S, +, \cdot)$ with $0$ being the identity under $+$, with $+$ and $\cdot$ associative, distributive, and additive inverses, then $a \cdot 0 0 \cdot a = 0$ for all $a \in S$.
 
