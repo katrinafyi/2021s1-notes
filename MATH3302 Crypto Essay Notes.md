@@ -1,0 +1,7 @@
+1. Explore the role of NIST and ISO in setting standards in cryptographic schemes. You may start with the following links: https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=920594 https://www.iso.org/isoiec-27001-information-security.html 
+    - NIST founded in 1901 as the National Bureau of Standards, initially to standardise weights and measures.
+2. Explore the role and recommendations of Queensland government in setting policy on the security of information and communication technology on the DES example. https://www.qgcio.qld.gov.au/documents/data-encryption-standard 
+3. What are the recommendations of the Australian Government in terms of DES? https://www.cyber.gov.au/sites/default/files/2019-04/22. 
+4. Explain how 3DES works and what are the differences to the original DES algorithm. https://www.rfc-editor.org/rfc/pdfrfc/rfc1851.txt.pdf 
+5. A block cipher, such as DES and 3DES can be operated in different modes such as ECB, CBC, etc.. Explore these modes in detail and explain their differences. What are the recommendations for the 3DES algorithm? https://csrc.nist.gov/publications/detail/sp/800-38a/final https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-67r1.pdf 
+6. Analyse the security of 3DES. What are the weaknesses of 3DES algorithm and what is the future development planned for block ciphers?
